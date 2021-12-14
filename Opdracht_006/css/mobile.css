@@ -1,0 +1,143 @@
+
+
+body {
+    margin: 0;
+    background: #e6e6e6;
+    height: auto;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+}
+h3 {
+    font-weight: 800;
+    font-size: 1rem;
+    border-left: 1px dashed #ff8800;
+    padding-left: 3px;
+}
+
+img {
+    border: 3px solid #ff8800;
+    border-radius: 50%;
+    height: 150px;
+}
+
+main {
+    max-width: 90%;
+    margin: auto;
+}
+
+#landing {
+    background: #fffbdb;
+    border-left: 3px solid #ff8800;
+    padding: 5px;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-personal {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 30vh;
+    justify-content: center;
+    align-items:center;
+}
+#landing-personal h2 {
+    font-weight:900;
+    color: #111;
+}
+
+header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #ff8800;
+    color: #fff;
+    margin-top: 0.5rem;
+    border-left: 3px solid #fffbdb;
+}
+header h2 {
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.beschrijving {
+    background: #fff;
+    padding: 0.8rem;
+    border: 1 px solid #ffddbb;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+#motivatie {
+    background: #fff;
+    padding: 0.8rem;
+    border: 1 px solid #ffddbb;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 0.8rem;
+    max-width: 95%;
+    margin: auto;
+    color: #333;
+}
+footer h3 {
+    color: #ff8800;
+    font-size: 3rem;
+    margin-bottom: 0;
+    border: none;
+}
+
+.intro {
+    font-style: italic;
+    font-weight:normal;
+    font-size: 0.8rem;
+}
+
+/* screens groter dan 500px */
+@media all and (min-width: 768px) {
+    main {
+        width: 75%;
+    }
+    #landing {
+        display: flex;
+    }
+    #landing-personal {
+        border: none;
+    }
+    #images2 {
+        display: flex;
+    }
+    #images3 {
+        display: flex;
+    }
+    .beschrijving {
+        width: 50vw;
+    }
+}
